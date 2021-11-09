@@ -1,0 +1,82 @@
+// @import "bootstrap/scss/bootstrap";
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  border-radius: 15px;
+  padding: 20px 30px;
+  margin: 10px auto;
+  background-color: rgb(0, 52, 56);
+  width: 150px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 1px solid white;
+}
+
+.tasks{
+  margin-left: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+h1 {
+  color: rgb(159, 212, 216);
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(white, rgb(175, 175, 175));
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  margin: 100px auto;
+  padding: 20px;
+  height: 500px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(9, 110, 122);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(85, 85, 85);
+}
+
+#newtask {
+  background: rgb(4, 57, 63);
+}
+
+.form {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 24, 26);
+  font-size: 20px;
+  margin-left: 15%;
+}
+
+.description {
+  background: rgba(255, 255, 255, .4);
+  width: 740px;
+  margin: 10px auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#task_title, #task_details {
+  background: rgb(255, 255, 255);
+  width: 450px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+#task_completed {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}

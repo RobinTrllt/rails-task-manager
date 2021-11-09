@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>To-do List:</h1>
+
+  <% @tasks.each do |task| %>
+  <p class = "tasks">
+    <%= task.completed ? '[x]' : '[ ]'%>
+    <%= link_to(task.title, task_path(task)) %>
+  </p>
+  <% end %>
+
+  <p class="btn" id= "newtask"><%= link_to("+ Add a new task", new_task_path) %></p>
+  <i class='fas fa-check-square'></i>
+</div>
